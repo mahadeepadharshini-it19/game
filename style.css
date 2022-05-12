@@ -1,0 +1,133 @@
+body{
+    height:100;
+    background:radial-gradient( circle ,rgba(255, 255, 255, 0.767),rgba(128, 128, 128, 0.966));
+}
+#mainbox{
+    height:580px;;
+    width:65%;
+    margin:100px auto;
+    background-color: rgb(114, 196, 207);
+    padding:10px;
+    border-radius: 15px;
+    box-shadow:0px 5px 0px 0px rgb(9, 112, 126) ;
+}
+#score{
+    background-color: rgba(232, 238, 143, 0.959);
+    color:rgba(17, 2, 2, 0.644);
+    padding:10px;
+    position:absolute;
+    font-size: 25px;
+    left:75%;
+    box-shadow: 0px 4px 0px 0px rgb(175, 173, 68);
+}
+#correct{
+    background-color: rgb(18, 139, 7);
+    color:white;
+    padding:10px;
+    position: absolute;
+    font-size: 20px;
+    left:45%;
+    display:none;
+}
+#wrong{
+    background-color: rgb(228, 19, 19);
+    color:white;
+    padding:10px;
+    position: absolute;
+    font-size: 20px;
+    left:45%;
+    display:none;
+}
+#question{
+    width:650px;
+    height:200px;
+    background-color: rgb(157, 145, 236);
+    margin:80px auto 10px auto ;
+    box-shadow: 0px 5px  rgb(63, 50, 173);
+    text-align: center;
+    font-size: 130px;
+    font-family:cursive;
+    letter-spacing:10px;
+    line-height: 200px;
+}
+#answer{
+    width:650px;
+    height:70px;
+    background-color: rgb(180, 97, 190);
+    margin:0px auto 10px auto ;
+    box-shadow: 0px 5px   rgb(149, 9, 161);
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px;
+}
+#choicebox{
+    width:650px;
+    height:120px;
+    margin:20px auto 10px auto ;
+}
+.boxes{
+    width:130px;
+    height:80px;
+    background-color: whitesmoke;
+    float:left;
+    margin-right: 41px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 5px  rgb(158, 163, 162);
+    position: relative;
+    transition: all 0.25s;
+    text-align:center;
+    font-size:35px;
+    line-height: 70px;;
+}
+#box4{
+    margin-right: 0;
+}
+#startmenu:hover{
+    background-color: rgb(157, 145, 236);
+    color:white;
+    box-shadow: 0px 5px   rgb(63, 50, 173);
+}
+.boxes:active,#startmenu:active{
+    background-color: rgb(157, 145, 236);
+    box-shadow: 0px;
+    top:4px;
+}
+#startmenu{
+    width:160px;
+    background-color:rgb(144, 212, 221);
+    color:black;
+    padding:10px;
+    font-size: 25px;
+    box-shadow: 0px 5px  rgb(9, 112, 126);
+    margin:0 auto;
+    cursor: pointer;
+    border-radius: 4px;
+    position: relative;
+    transition: all 0.25s;
+   
+}
+#timer{
+    position: absolute;
+    background-color:rgba(162, 212, 24, 0.993);
+    padding:10px;
+    box-shadow: 0px 5px  rgb(81, 99, 3);
+    border-radius: 4px;
+    left:70%;
+    top:630px;
+    font-size: 19px;
+    display: none;
+}
+#gameover{
+    width:670px;
+    height:260px;
+    background: linear-gradient(rgb(236, 177, 67),red);
+    text-align: center;
+    color:white;
+    font-size: 40px;
+    position:absolute;
+    top:240px;
+    left:470px;
+    z-index: 2;
+    display: none;
+}
